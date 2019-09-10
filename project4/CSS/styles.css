@@ -1,0 +1,21 @@
+/* Styles for PRoject 4 */
+
+body {
+    
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+    
+}
+
+h1 {
+    
+    color: deeppink;
+}
+
+img {
+    
+     max-width: 100%
+     
+}
+
