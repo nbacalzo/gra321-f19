@@ -2,19 +2,21 @@
 
 body {
     
-    font-family: brandon-grotesque, sans-serif;
+    font-family: avenir-light, sans-serif;
     font-weight: 100;
     font-style: normal;
     letter-spacing: .25px;
-    line-height: 1.25;
+    line-height: 1.5;
     padding: 7%;
+    background-image: linear-gradient(white, cornflowerblue);
     
 }
 
 h1 {
     
-    font-size: 2em;
-    letter-spacing: .5px;
+    color: cornflowerblue;
+    font-size: 6em;
+    letter-spacing: 9px;
     font-family: museo-slab, serif;
     font-weight: 700;
     font-style: normal; 
@@ -23,4 +25,12 @@ h1 {
 img {
     
     width: 100%;
+    padding-top: 5%;
 }
+
+h2 { 
+    
+    color: darkcyan;
+        
+}
+
