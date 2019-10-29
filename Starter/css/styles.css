@@ -1,0 +1,65 @@
+
+
+body {
+    
+    font-family: avenir-light, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: .25px;
+    line-height: 1.5;
+    padding: 7%;
+    background-color: azure;
+    
+}
+
+ul {
+    
+    list-style-type: none;
+}
+
+h4 {
+
+    padding-left: 10px;
+}
+
+h1 {
+    
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+#coffee {
+    
+    height: 200px;
+    background-image: url(img/coffee.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .column {
+    width: 100%;
+  }
+    
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+    
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
