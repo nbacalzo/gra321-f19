@@ -8,7 +8,7 @@ body {
     letter-spacing: .25px;
     line-height: 1.5;
     padding: 7%;
-    background-color: bisque;
+    background-color: papayawhip;
     
 }
 
@@ -27,35 +27,16 @@ h1 {
     font-size: 60px;
 }
 
-@media only screen and (max-width: 300px) {
-  body {
-    background-color: lightblue;
+
+@media only screen and (min-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
   }
 }
 
 
-#coffee {
-    
-    height: 200px;
-    background-image: url(img/coffee.jpg);
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-}
-
-@media screen and (min-width: 300px) {
-  .column {
-    width: 100%;
-  }
-    
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 10px;
-}
     
 
 
