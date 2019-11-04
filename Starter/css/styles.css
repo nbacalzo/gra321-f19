@@ -5,7 +5,7 @@ body {
     font-family: avenir-light, sans-serif;
     font-weight: 100;
     font-style: normal;
-    letter-spacing: .25px;
+    letter-spacing: .65px;
     line-height: 1.5;
     padding: 7%;
     
@@ -27,13 +27,28 @@ h1 {
     font-size: 60px;
 }
 
+h2 { 
+    font-size: 40px; 
+    text-align: centered;
+}
+
 h3 {
     
     font-size: 20px;
 }
 
 
-@media only screen and (min-width: 400px) {
+.header {
+  background-image:url();
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+
+@media only screen and (min-width: 800px) {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 4fr;
