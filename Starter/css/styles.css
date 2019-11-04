@@ -39,7 +39,7 @@ h3 {
 
 
 .header {
-  background-image:url();
+  background: url(beans.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
