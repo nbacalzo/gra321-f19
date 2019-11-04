@@ -8,13 +8,13 @@ body {
     letter-spacing: .25px;
     line-height: 1.5;
     padding: 7%;
-    background-color: papayawhip;
     
 }
 
 ul {
     
     list-style-type: none;
+    
 }
 
 h4 {
@@ -27,15 +27,19 @@ h1 {
     font-size: 60px;
 }
 
+h3 {
+    
+    font-size: 20px;
+}
+
 
 @media only screen and (min-width: 800px) {
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 4fr;
     grid-gap: 2rem;
   }
 }
-
 
     
 
