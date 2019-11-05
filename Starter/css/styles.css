@@ -38,10 +38,11 @@ h3 {
 }
 
 .header {
-  background-image: url('beans.jpg');
+  background-image: url(../img/beans.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
+  color: white;
   justify-content: center;
   height: 80vh;
 }
