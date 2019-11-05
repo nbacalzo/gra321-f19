@@ -53,6 +53,36 @@ h3 {
     grid-gap: 2rem;
   }
 
+.nav ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.padding {
+    padding: .5em; 
+}
+
+.nav li {
+  font-family: Avenir-light, sans-serif;
+  font-size: .7em;
+  line-height: 30px;
+  height: 30px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .5s background-color;
+}
+ 
+.nav a:hover {
+  background-color: saddlebrown;
+}
+ 
+
 
 @media only screen and (max-width: 650px) {
   .container {
@@ -60,6 +90,19 @@ h3 {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
+    
+    .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+    
+    .nav ul {
+        text-align: center;
+    }
+    
 }
 
     
