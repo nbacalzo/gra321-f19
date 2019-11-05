@@ -8,6 +8,7 @@ body {
     letter-spacing: .65px;
     line-height: 1.5;
     padding: 7%;
+    background: #D1BF93;
     
 }
 
@@ -17,14 +18,10 @@ ul {
     
 }
 
-h4 {
-
-    padding-left: 10px;
-}
 
 h1 {
     
-    font-size: 60px;
+    font-size: 90px;
 }
 
 h2 { 
@@ -35,6 +32,16 @@ h2 {
 h3 {
     
     font-size: 20px;
+}
+
+h4 {
+
+    padding-left: 10px;
+}
+
+h5 {
+    
+    font-size: 18px;
 }
 
 .header {
@@ -61,7 +68,7 @@ h3 {
 }
 
 .padding {
-    padding: .5em; 
+    padding-bottom: .2em; 
 }
 
 .nav li {
